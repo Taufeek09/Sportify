@@ -157,8 +157,8 @@ body {
 .playbar{
     position: absolute;
     bottom: 0;
-    background-color: rgb(140, 193, 140);
-    width: 100%;
+    background-color: rgb(241, 243, 241);
+    width: 90%;
     border-radius: 5px;
     padding: 12px;
 }
@@ -166,4 +166,11 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
+}
+.songlist ul{
+    padding: 0 42px;
+}
+
+.songlist ul li{
+    list-style-type: decimal;
 }
